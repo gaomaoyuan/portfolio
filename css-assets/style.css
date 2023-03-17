@@ -1,6 +1,6 @@
 :root {
-    --blue: rgb(53, 231, 162);
-    --black: rgba(218, 236, 240, 0.849);
+    --blue: rgb(156, 237, 243);
+    --black: rgba(221, 244, 174, 0.849);
   }
   ::selection {
     background-color: var(--blue);
@@ -121,7 +121,11 @@
     font-size: 20px;
   }
   /*set the img behind the appname section*/
-  .partimgbig,
+  .partimgbig{
+    position: relative;
+    width: 50vw;
+  }
+
   .partimghalf,
   .partimgsmall {
     position: relative;
@@ -134,7 +138,7 @@
   }
   /*add board and set width for the first app section*/
   .partimgbig img {
-    width: 49vh;
+    width: 50vw;
     border: 10px solid var(--blue);
   }
   /*set width and padding for the rest four app sections*/
@@ -154,6 +158,10 @@
     box-shadow: inset 0px 0px 8px var(--blue), 0 0 15px var(--blue);
   }
   /*Presented image will be larger than the others*/
+  #app1:hover {
+    transition-duration: 1s;
+    transform: scale(1.1);
+  }
   #app2:hover { 
     transition-duration: 1s;
     transform: scale(1.2);
