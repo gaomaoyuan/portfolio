@@ -99,7 +99,7 @@
   /*adjust self photo*/
   .selfphoto img {
     border: 10px solid var(--black);
-    width: 50;
+    width: 300px;
   }
   /*gengeral settings for app list*/
   .partleft li {
