@@ -192,6 +192,12 @@
     font-size: 20px;
     font-weight: bold;
   }
+
+  .section-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
   /*settings for small screen*/
   @media screen and (max-width: 760px) {
     /*let developer name display in the middle*/
@@ -220,3 +226,5 @@
       width: 100%;
     }
   }
+
+  
